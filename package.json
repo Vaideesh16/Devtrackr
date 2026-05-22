@@ -1,0 +1,17 @@
+{
+  "name": "devtrackr",
+  "version": "1.0.0",
+  "description": "DevTrackr is a production-ready MERN application for tracking job applications, monitoring pipeline health, viewing analytics, and staying ahead of follow-ups.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
